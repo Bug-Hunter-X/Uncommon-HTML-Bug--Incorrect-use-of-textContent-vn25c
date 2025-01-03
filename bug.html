@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+  <script>
+    // Incorrect attempt to access the div's text content
+    const divText = document.getElementById('myDiv').textContent;
+    alert(divText);
+
+    // Correct way to access text content of an element
+    // const divText = document.getElementById('myDiv').innerText; 
+    // alert(divText);
+  </script>
+</body>
+</html>
