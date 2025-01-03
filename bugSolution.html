@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+  <script>
+    // Correct way to access text content of an element
+    const divText = document.getElementById('myDiv').innerText;
+    alert(divText);
+  </script>
+</body>
+</html>
